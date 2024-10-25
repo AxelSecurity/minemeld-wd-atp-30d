@@ -6,14 +6,14 @@
     "description": "MineMeld Nodes for Microsoft WD-ATP API 30 day expire",
     "entry_points": {
         "minemeld_nodes": {
-            "microsoft_wd_atp.Output": "microsoft_wd_atp.node:Output",
-            "microsoft_wd_atp.OutputBatch": "microsoft_wd_atp.node:OutputBatch"
+            "microsoft_wd_atp_30d.Output": "microsoft_wd_atp_30d.node:Output",
+            "microsoft_wd_atp_30d.OutputBatch": "microsoft_wd_atp_30d.node:OutputBatch"
         },
         "minemeld_prototypes": {
-            "microsoft_wd_atp.prototypes": "microsoft_wd_atp:prototypes"
+            "microsoft_wd_atp_30d.prototypes": "microsoft_wd_atp_30d:prototypes"
         },
         "minemeld_webui": {
-            "microsoftWDATPWebui": "microsoft_wd_atp:webui_blueprint"
+            "microsoftWDATPWebui30d": "microsoft_wd_atp_30d:webui_blueprint"
         }
     },
     "manifest_version": 0
