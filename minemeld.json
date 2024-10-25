@@ -3,7 +3,7 @@
     "name": "minemeld-wd-atp-30d",
     "author": "Palo Alto Networks",
     "author_email": "techbizdev@paloaltonetworks.com",
-    "description": "MineMeld Nodes for Microsoft WD-ATP API",
+    "description": "MineMeld Nodes for Microsoft WD-ATP API 30 day expire",
     "entry_points": {
         "minemeld_nodes": {
             "microsoft_wd_atp.Output": "microsoft_wd_atp.node:Output",
