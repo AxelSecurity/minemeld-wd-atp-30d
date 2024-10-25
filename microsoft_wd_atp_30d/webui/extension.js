@@ -14,7 +14,6 @@ function MSFTWDATPSideConfigController($scope, MinemeldConfigService, MineMeldRu
 
     vm.loadSideConfig = function() {
         var nodename = $scope.$parent.vm.nodename;
-        console.log(nodename);
 
         MinemeldConfigService.getDataFile(nodename + '_side_config')
         .then((result) => {
