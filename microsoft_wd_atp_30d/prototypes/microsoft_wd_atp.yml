@@ -5,7 +5,7 @@ description: >
 prototypes:
   output:
     author: Palo Alto Networks TBD
-    class: microsoft_wd_atp.Output
+    class: microsoft_wd_atp_30d.Output
     development_status: DEPRECATED
     node_type: output
     indicator_types:
@@ -22,7 +22,7 @@ prototypes:
 
   outputBatch:
     author: Palo Alto Networks TBD
-    class: microsoft_wd_atp.OutputBatch
+    class: microsoft_wd_atp_30d.OutputBatch
     development_status: EXPERIMENTAL
     node_type: output
     indicator_types:
