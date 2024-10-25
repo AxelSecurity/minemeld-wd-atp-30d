@@ -282,7 +282,7 @@ function MSFTWDATPActionController($modalInstance) {
     }
 }
 
-angular.module('microsoftWDATPWebui30d', [])
+angular.module('microsoftWDATPWebui', [])
     .controller('MSFTWDATPSideConfigController', [
         '$scope', 'MinemeldConfigService', 'MineMeldRunningConfigStatusService',
         'toastr', '$modal', 'ConfirmService', '$timeout',

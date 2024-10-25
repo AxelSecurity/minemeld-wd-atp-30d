@@ -13,7 +13,7 @@
             "microsoft_wd_atp_30d.prototypes": "microsoft_wd_atp_30d:prototypes"
         },
         "minemeld_webui": {
-            "microsoftWDATPWebui30d": "microsoft_wd_atp_30d:webui_blueprint"
+            "microsoftWDATPWebui": "microsoft_wd_atp:webui_blueprint"
         }
     },
     "manifest_version": 0
