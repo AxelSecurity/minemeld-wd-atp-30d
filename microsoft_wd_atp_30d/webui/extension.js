@@ -282,7 +282,7 @@ function MSFTWDATPActionController($modalInstance) {
     }
 }
 
-angular.module('microsoftWDATPWebui', [])
+angular.module('microsoftWDATPWebui30d', [])
     .controller('MSFTWDATPSideConfigController', [
         '$scope', 'MinemeldConfigService', 'MineMeldRunningConfigStatusService',
         'toastr', '$modal', 'ConfirmService', '$timeout',
@@ -296,7 +296,7 @@ angular.module('microsoftWDATPWebui', [])
         });
     }])
     .run(['NodeDetailResolver', '$state', function(NodeDetailResolver, $state) {
-        NodeDetailResolver.registerClass('microsoft_wd_atp.node.Output', {
+        NodeDetailResolver.registerClass('microsoft_wd_atp_30d.node.Output', {
             tabs: [{
                 icon: 'fa fa-circle-o',
                 tooltip: 'INFO',
@@ -317,7 +317,7 @@ angular.module('microsoftWDATPWebui', [])
             }]
         });
 
-        NodeDetailResolver.registerClass('microsoft_wd_atp.node.OutputBatch', {
+        NodeDetailResolver.registerClass('microsoft_wd_atp_30d.node.OutputBatch', {
             tabs: [{
                 icon: 'fa fa-circle-o',
                 tooltip: 'INFO',
