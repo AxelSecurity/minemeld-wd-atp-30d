@@ -310,7 +310,7 @@ class Output(ActorBaseFT):
             ', '.join(value['sources'])
         )
         external_id = '{}:{}'.format(type_, indicator)
-        expiration = datetime.utcnow() + timedelta(days=365)
+        expiration = datetime.utcnow() + timedelta(days=30)
         if expired:
             expiration = datetime.fromtimestamp(0)
         expiration = expiration.isoformat()
@@ -675,7 +675,7 @@ class OutputBatch(ActorBaseFT):
         creation = datetime.utcnow()
         creation = creation.isoformat() + 'Z'
 
-        expiration = datetime.utcnow() + timedelta(days=365)
+        expiration = datetime.utcnow() + timedelta(days=30)
         if expired:
             expiration = datetime.fromtimestamp(0)
         expiration = expiration.isoformat() + 'Z' # expiration is always in UTC
